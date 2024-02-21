@@ -15,13 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
     { text: "a. 소개", link: "p2-a.html" },
     { text: "b. 주제 뽑기", link: "p2-b.html" },
     { text: "c. 지시사항 뽑기", link: "p2-c.html" },
-
-    // { text: "c. 타이머", link: "p2-c.html" },
+    // { text: "d. 협업 찬스", link: "p2-d.html" },
   ];
   const subnavItems3 = [
     { text: "a. 소개", link: "p3-a.html" },
     { text: "b. 주제 뽑기", link: "p3-b.html" },
-    // { text: "b. 타이머", link: "p3-b.html" },
   ];
 
   // Modify a specific navigation item for a specific page
@@ -50,6 +48,10 @@ document.addEventListener("DOMContentLoaded", function () {
   if (currentPage === "p2-c.html") {
     navItems[1].color = "black";
     subnavItems2[2].color = "black";
+  }
+  if (currentPage === "p2-d.html") {
+    navItems[1].color = "black";
+    subnavItems2[3].color = "black";
   }
   if (currentPage === "p3-a.html") {
     navItems[2].color = "black";
@@ -101,7 +103,8 @@ document.addEventListener("DOMContentLoaded", function () {
   if (
     currentPage === "p2-a.html" ||
     currentPage === "p2-b.html" ||
-    currentPage === "p2-c.html"
+    currentPage === "p2-c.html" ||
+    currentPage === "p2-d.html"
   ) {
     subnavItems2.forEach((item) => {
       const div = document.createElement("div");
