@@ -77,16 +77,16 @@ function copyTextToClipboard(text) {
 
 //
 const currentPage = window.location.pathname.split("/").pop(); // Get the current page filename
-if (currentPage === "p1-b.html") {
+if (currentPage === "p2-b.html") {
   setupShuffle(".text1");
   setupShuffle(".text2");
   setupShuffle(".text3");
   setupShuffle(".text4");
-} else if (currentPage === "p1-c.html") {
+} else if (currentPage === "p2-c.html") {
   setupShuffle(".text1");
   setupShuffle(".text2");
   setupShuffle(".text3");
-} else if (currentPage === "p2-b.html") {
+} else if (currentPage === "p3-b.html") {
   setupShuffle(".text1");
   setupShuffle(".text2");
 }

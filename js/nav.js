@@ -6,22 +6,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Define navigation items
   const navItems = [
-    { text: "p1. 로터리", link: "p1-a.html" },
-    { text: "p2. 핑퐁", link: "p2-a.html" },
-    { text: "p3. 미션", link: "p3-a.html" },
+    { text: "p1. 미션", link: "p1-a.html" },
+    { text: "p2. 로터리", link: "p2-a.html" },
+    { text: "p3. 핑퐁", link: "p3-a.html" },
   ];
-  const subnavItems1 = [
-    { text: "a. 소개", link: "p1-a.html" },
-    { text: "b. 주제 뽑기", link: "p1-b.html" },
-    { text: "c. 지시사항 뽑기", link: "p1-c.html" },
-  ];
+  const subnavItems1 = [{ text: "a. 소개", link: "p1-a.html" }];
   const subnavItems2 = [
     { text: "a. 소개", link: "p2-a.html" },
     { text: "b. 주제 뽑기", link: "p2-b.html" },
+    { text: "c. 지시사항 뽑기", link: "p2-c.html" },
+
     // { text: "c. 타이머", link: "p2-c.html" },
   ];
   const subnavItems3 = [
     { text: "a. 소개", link: "p3-a.html" },
+    { text: "b. 주제 뽑기", link: "p3-b.html" },
     // { text: "b. 타이머", link: "p3-b.html" },
   ];
 

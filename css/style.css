@@ -128,23 +128,23 @@ a:hover {
   position: relative;
   margin: 0;
 }
-.text-container_1b {
+.text-container_2b {
   height: var(--height_m);
 }
-.text-container_2b {
+.text-container_3b {
   height: calc(var(--height_m) * 2.5);
 }
-.text-container_1c {
+.text-container_2c {
   height: calc(var(--height_s) * 3);
 }
-.text-container_1b {
+.text-container_2b {
   top: calc(50% - (var(--height_m) * 2.1));
 }
-.text-container_1c {
+.text-container_2c {
   top: calc(50% - (var(--height_s) * 4.7));
   margin-bottom: 20px;
 }
-.text-container_2b {
+.text-container_3b {
   top: calc(50% - calc(var(--height_m) * 1.15));
 }
 
@@ -176,22 +176,22 @@ a:hover {
   .texts {
     font-size: var(--text_m);
   }
-  .text-container_1b {
+  .text-container_2b {
     height: var(--height_l);
   }
-  .text-container_2b {
+  .text-container_3b {
     height: calc(var(--height_l) * 2.5);
   }
-  .text-container_1c {
+  .text-container_2c {
     height: calc(var(--height_m) * 2.5);
   }
-  .text-container_1b {
+  .text-container_2b {
     top: calc(50% - (var(--height_l) * 2));
   }
-  .text-container_1c {
+  .text-container_2c {
     top: calc(50% - (var(--height_m) * 4));
   }
-  .text-container_2b {
+  .text-container_3b {
     top: calc(50% - calc(var(--height_l)));
   }
   .inst_link {
