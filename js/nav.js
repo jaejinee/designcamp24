@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (currentPage === "p1-a.html") {
     navItems[0].color = "black";
     subnavItems1[0].color = "black";
-    navItems[1].class = "disabled";
+    // navItems[1].class = "disabled";
   }
   if (currentPage === "p1-b.html") {
     navItems[0].color = "black";
