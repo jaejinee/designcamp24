@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Define navigation items
   const navItems = [
     { text: "p1. 미션", link: "p1-a.html" },
-    // { text: "p2. 로터리", link: "p2-a.html" },
+    { text: "p2. 로터리", link: "p2-a.html" },
     // { text: "p3. 핑퐁", link: "p3-a.html" },
   ];
   const subnavItems1 = [{ text: "a. 소개", link: "p1-a.html" }];
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (currentPage === "p1-a.html") {
     navItems[0].color = "black";
     subnavItems1[0].color = "black";
-    // navItems[1].class = "disabled";
+    navItems[1].class = "disabled";
   }
   if (currentPage === "p1-b.html") {
     navItems[0].color = "black";
