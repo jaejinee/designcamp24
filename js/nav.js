@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { text: "a. 소개", link: "p2-a.html" },
     { text: "b. 주제 뽑기", link: "p2-b.html" },
     { text: "c. 지시사항 뽑기", link: "p2-c.html" },
-    // { text: "d. 협업 찬스", link: "p2-d.html" },
+    { text: "d. 협업 찬스", link: "p2-d.html" },
   ];
   const subnavItems3 = [
     { text: "a. 소개", link: "p3-a.html" },
